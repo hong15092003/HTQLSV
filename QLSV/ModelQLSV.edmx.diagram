@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2452afb03a145b2b3c1283d3e25a841" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="HTQLSVModel.Account" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.DayHoc" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.Diem" Width="1.5" PointX="9.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.GiangVien" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.HocMonHoc" Width="1.5" PointX="12.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.HocPhi" Width="1.5" PointX="9.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.Khoa" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.LopChinhKhoa" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.MonHoc" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.PhongBan" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.SinhVien" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HTQLSVModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HTQLSVModel.FK__HocDayHoc__MaGV__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__HocDayHoc__MaMon__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__Diem__MaSV__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__HocMonHoc__MaMon__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__HocMonHoc__MaSV__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__HocPhi__MaSV__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__Khoa__MaPhongBan__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__LopChinhK__MaKho__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__MonHoc__MaKhoa__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="HTQLSVModel.FK__SinhVien__MaLopC__3F466844" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
